@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-size: cover;
+  background-image: url(./images.jpg/bg\ artboard.png);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.app-wrapper {
+  background-color: white;
+  min-width: 21.875rem;
+  min-height: 20.625rem;
+  padding: 1.875rem;
+  padding-top: 0rem;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5),
+    0px 8px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-left: 17%;
+}
+.title {
+  color: rgba(0, 0, 0, 0.685);
+  text-align: center;
+  margin: 2rem 0rem 2.5rem 0rem;
+  font-size: 2rem;
+}
+.name,
+.Roll,
+.Branch,
+.Email,
+.Address,
+.Password,
+.contact {
+  margin: 1.25rem;
+
+  font-size: 1.03rem;
+}
+.name .Year {
+  float: right;
+}
+
+.Password {
+  margin-bottom: 2.5rem;
+}
+.input {
+  height: 2rem;
+  font-size: 1.25rem;
+  outline: none;
+  width: 50%;
+  color: black;
+  margin-bottom: 0.625rem;
+  background-color: rgba(128, 128, 128, 0.425);
+  border: none;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+.name .Year select {
+  height: 2rem;
+  font-size: 1.25rem;
+  outline: none;
+  width: 120%;
+  background-color: rgba(128, 128, 128, 0.425);
+  border: none;
+  border-radius: 0.5rem;
+}
+.Branch select {
+  height: 2rem;
+  font-size: 1.25rem;
+  outline: none;
+  width: 50%;
+  background-color: rgba(128, 128, 128, 0.425);
+  border: none;
+  border-radius: 0.5rem;
+}
+.submit {
+  display: flex;
+  font-size: 1.25rem;
+  border-radius: 1.563rem;
+  color: white;
+  padding: 0.625rem 3.75rem;
+  background: linear-gradient(to right, #52d1f9, #e563f8);
+  box-shadow: #52d1f9 82, 209, 249, #e563f8 229, 99, 248;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.logininput {
+  height: 2rem;
+  font-size: 1.25rem;
+
+  width: 100%;
+  color: black;
+  margin-bottom: 0.625rem;
+
+  padding-left: 0.5rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.forgotinput {
+  height: 2rem;
+  font-size: 1.25rem;
+
+  width: 100%;
+  color: black;
+  margin-bottom: 0.625rem;
+
+  padding-left: 0.5rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#forget {
+  text-align: right;
+
+  text-decoration: none;
+}
+.app-wrapper h3 {
+  text-align: center;
+}
+.inputnum {
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 1.4rem;
+  background-color: rgba(128, 128, 128, 0.541);
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+.error {
+  color: red;
+}
+.menu {
+  background-color: black;
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+  top: 0px;
+
+  opacity: 0.4;
+}
+.nav {
+  float: right;
+}
+
+.nav li {
+  list-style: none;
+  width: 8rem;
+  height: 2rem;
+  margin-left: 2rem;
+  text-align: center;
+  line-height: 3.5rem;
+  float: left;
+}
+.nav li a {
+  color: white;
+
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 100;
+}
+.app-wrapper1 {
+  background-color: white;
+  min-width: 40.875rem;
+  min-height: 40.5rem;
+  margin-top: 4rem;
+  padding: 1.875rem;
+  padding-top: 10rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5),
+    0px 8px 20px 0 rgba(0, 0, 0, 0.5);
+  font-size: 5rem;
+  text-align: center;
+  margin-left: 28%;
+  animation: transitionIn 3s;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-150deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+.app-wrapper1 .animate {
+  animation: rotating 5s;
+}
+@keyframes rotating {
+  from {
+    opacity: 0;
+    transform: rotateY(-150deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+.txt {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-style: italic;
+  animation: unq 7s;
+  color: blue;
+}
+@keyframes unq {
+  from {
+    opacity: 0;
+    transform: rotateX(-150deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
