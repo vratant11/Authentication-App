@@ -35,13 +35,11 @@
 .Email,
 .Address,
 .Password,
-.contact {
+.contact,
+.Year {
   margin: 1.25rem;
 
   font-size: 1.03rem;
-}
-.name .Year {
-  float: right;
 }
 
 .Password {
@@ -59,11 +57,11 @@
   border-radius: 0.5rem;
   padding-left: 0.5rem;
 }
-.name .Year select {
+.Year select {
   height: 2rem;
   font-size: 1.25rem;
   outline: none;
-  width: 120%;
+  width: 50%;
   background-color: rgba(128, 128, 128, 0.425);
   border: none;
   border-radius: 0.5rem;

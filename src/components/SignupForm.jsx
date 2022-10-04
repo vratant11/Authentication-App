@@ -77,10 +77,13 @@ const Signupform = () => {
                   value={values.name}
                   onChange={handleChange}/>
                   {errors.name && <p className="error">{errors.name}</p>}
-                  <div className='Year'>
+                  
+
+              </div>
+              <div className='Year'>
                   
                   <select  name="year" value={values.year} onChange={handleChange} >
-                      <option value="Year">Select Year</option>
+                      <option value="Year">Year</option>
                       <option value="1 ">1 </option>
                       <option value="2 ">2 </option>
                       <option value="3 ">3 </option>
@@ -90,11 +93,10 @@ const Signupform = () => {
                   
               </div>
 
-              </div>
               <div className='Roll'>
                   <input className='input' 
                   type="text" 
-                  placeholder='Roll NO.' 
+                  placeholder='University Roll NO.' 
                   name='rollno' 
                   value={values.rollno}
                   onChange={handleChange}/>

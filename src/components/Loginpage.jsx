@@ -1,13 +1,13 @@
 import React,{useEffect,useState} from 'react';
 import {Link,useNavigate} from "react-router-dom";
 import validation from './validation';
-import Axios from 'axios';
+// import Axios from 'axios';
 
 const Loginpage = () => {
     const navigate = useNavigate();
     const [dataIsCorrect,setDataIsCorrect] = useState(false);
     const[submitform,setSubmitform] = useState(false);
-    const[data,setData]=useState({})
+    // const[data,setData]=useState({})
     
     const [values,setValues] = useState({        
         email:"",
@@ -93,7 +93,7 @@ const Loginpage = () => {
               </div>
               
               <div>
-                  <button className='submit' onClick={handleFormSubmit}>Login</button>
+                  <button className='submit' onClick={submitform ? navigate("/home"): handleFormSubmit}>Login</button>
               </div>
               <br/>
               <div>
@@ -106,3 +106,15 @@ const Loginpage = () => {
 };
 
 export default Loginpage;
+// const result = Axios.post(url, {
+//     Name: values.Name,
+//     Rollno: values.Rollno,
+//     Email: values.Email,
+//     Contactno: values.Contactno,
+//     Gender: values.Gender,
+//     Year: values.Year,
+//     Branch: values.Branch,
+//     Residence: values.Residence,
+//   }).then((res) => {
+//     console.log(res.data);
+//   });
