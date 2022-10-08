@@ -11,6 +11,10 @@
   justify-content: left;
   align-items: center;
 }
+.field{
+  border: 2px solid black;
+
+}
 .app-wrapper {
   background-color: white;
   min-width: 21.875rem;
@@ -49,7 +53,7 @@
   height: 2rem;
   font-size: 1.25rem;
   outline: none;
-  width: 50%;
+  width: 90%;
   color: black;
   margin-bottom: 0.625rem;
   background-color: rgba(128, 128, 128, 0.425);
@@ -61,7 +65,7 @@
   height: 2rem;
   font-size: 1.25rem;
   outline: none;
-  width: 50%;
+  width: 90%;
   background-color: rgba(128, 128, 128, 0.425);
   border: none;
   border-radius: 0.5rem;
@@ -70,7 +74,7 @@
   height: 2rem;
   font-size: 1.25rem;
   outline: none;
-  width: 50%;
+  width: 90%;
   background-color: rgba(128, 128, 128, 0.425);
   border: none;
   border-radius: 0.5rem;
@@ -88,6 +92,11 @@
   border: none;
   cursor: pointer;
 }
+.radio{
+  margin-top: 2%;
+  font-size: large;
+}
+
 .logininput {
   height: 2rem;
   font-size: 1.25rem;

@@ -70,7 +70,7 @@ const Signupform = () => {
           </div>
           <form className='form-wrapper'>
               <div className='name'>
-                  <input className='input' 
+                  <input className='input field' 
                   type="text"  
                   placeholder='Name'
                   name='name' 
@@ -82,7 +82,7 @@ const Signupform = () => {
               </div>
               <div className='Year'>
                   
-                  <select  name="year" value={values.year} onChange={handleChange} >
+                  <select  className='field' name="year" value={values.year} onChange={handleChange} >
                       <option value="Year">Year</option>
                       <option value="1 ">1 </option>
                       <option value="2 ">2 </option>
@@ -93,8 +93,8 @@ const Signupform = () => {
                   
               </div>
 
-              <div className='Roll'>
-                  <input className='input' 
+              <div className='Roll '>
+                  <input className='input radio-options' 
                   type="text" 
                   placeholder='University Roll NO.' 
                   name='rollno' 
@@ -112,7 +112,7 @@ const Signupform = () => {
                                    
               </div>
               <div className='contact'>
-                  <input className='input' 
+                  <input className='input field' 
                   type="text" 
                   placeholder='Contact' 
                   name='phone' 
@@ -122,7 +122,7 @@ const Signupform = () => {
                   </div>
               <div className='Branch'>
                   
-                  <select id='Branch' name="branch" value={values.branch} onChange={handleChange}>
+                  <select className='field' id='Branch' name="branch" value={values.branch} onChange={handleChange}>
                       <option value="Branch">Branch</option>
                       <option value="CSE">CSE</option>
                       <option value="CS">CS</option>
@@ -137,7 +137,7 @@ const Signupform = () => {
               </div>
               <div className='Email'>
                   
-                  <input className='input' 
+                  <input className='input field' 
                   type="text" 
                   placeholder='Email' 
                   name='email' 
@@ -147,7 +147,7 @@ const Signupform = () => {
               </div>
               <div className='Address'>
                   
-                  <input className='input' 
+                  <input className='input field' 
                   type="text" 
                   placeholder='Address'
                   name='address' 
@@ -157,7 +157,7 @@ const Signupform = () => {
                   
               </div>
               <div className='Password'>
-                  <input className='input' 
+                  <input className='input field' 
                   type="password" 
                   placeholder='Password' 
                   name='password' 
